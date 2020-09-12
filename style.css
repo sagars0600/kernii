@@ -1,0 +1,255 @@
+
+
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+  body {
+    margin: 0;
+    
+}
+
+.preview_header{
+    font-size: 7px;
+    height: 20px;
+    background-color: rgb(164, 168, 156);
+    z-index: 1;
+    margin-top: -10px;
+    font-family: 'Montserrat', sans-serif;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+} 
+@media screen and (max-width:768px){
+  .para{
+    display: none;
+  }
+  h3.heading{
+    font-size: 10px;
+  }
+  .carousel-caption{
+    width: 180px;
+    height: 38px;
+    box-sizing: border-box;
+    padding-top: 14px;
+  }
+}
+
+.para{
+  font-size: 16px;
+}
+.btn{
+  background-color: rgb(134, 130, 125);
+}
+img{
+  width: 100%;
+}
+.btn:hover{
+  background-color: white;
+}
+.heading{
+  font-size: 20px;
+  color:white;
+  line-height: 1.3;
+}
+.carousel-caption{
+  font-size: 15px;
+  background-color: black;
+  opacity: 0.6;
+  max-width: 229px;
+  max-height: 162px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 17px auto;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 139px;
+  right: 38px;
+  z-index: 99;
+  font-size: 27px;
+  border: none;
+  outline: none;
+  color: black;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+#myBtn:hover {
+  background-color: gray;
+}
+.fixed-top{
+  position: fixed;
+}
+.icon-first{
+  letter-spacing: 9px;
+}
+
+.cart-icon{
+  font-size: 30px;
+  margin-top: 10px;
+  /* position:absolute;
+  float: left;
+  margin-left: -9%; */
+}
+
+.cart-icon:hover{
+  color: darkolivegreen;
+}
+
+@media screen and (max-width:768px){
+  #link-12-77{
+    margin-left: 317px;
+    position: relative;
+  }
+  .cart-icon{
+    position:absolute;
+    float: left;
+    margin-left: -5%;
+  }
+  #_nav_menu-13-77{
+    /* position:absolute;
+    float: left;
+    margin-left: -35px; */
+  }
+}
+
+@media screen and (max-width:449px){
+  #link-12-77{
+    margin-left: 138px;
+    position: relative;
+  }
+
+  .cart-icon{
+    position:absolute;
+    float: left;
+    margin-left: -11%;
+  }
+}
+@media only screen and (max-width:375.98px){
+  #link-12-77{
+    margin-left: 119px;
+    
+  }
+@media only screen and (max-width:360.98px){
+  #link-12-77{
+    margin-left: 119px;
+    
+  }
+}
+
+
+
+@media screen and (max-width:320px){
+  #link-12-77{
+    margin-left: 99px;
+    
+  }
+  .cart-icon{
+    position:absolute;
+    float: left;
+    margin-left: -15%;
+  }
+}
+
+@font-face {
+	font-family: 'Oregon LDO';
+	font-weight: 400;
+	font-style: normal;
+	src: url(//db.onlinewebfonts.com/t/250322166a34874157e93e1587b111ab.woff2);
+}
+}
+
+
+/* .
+
+
+.oxy-nav-menu-open .oxy-nav-menu-hamburger{
+  transform: translateX(-322px) rotate(45deg);
+}
+
+
+
+.oxy-nav-menu-open .oxy-nav-menu-hamburger{
+  transform:rotate(45deg);
+  float: left;
+  position: absolute;
+  
+}
+
+/* @media screen and (max-width:375px){
+  #oxy-nav-menu-open #oxy-nav-menu-hamburger{
+    margin-right: 638px;
+  }
+} */
+.oxy-nav-menu.oxy-nav-menu-open{
+  transform: translateX(50%);
+}
+
+.oxy-nav-menu.oxy-nav-menu-open > div:last-child{
+  transform: translate(-25%);
+}
+
+@media only screen and (min-width:320px){
+  #_nav_menu-13-77.oxy-nav-menu-open
+  .oxy-nav-menu-hamburger{
+    position: absolute;
+    float: left;
+    transform: translateX(-271px) rotate(45deg);
+  }
+}
+@media only screen and (min-width:360px){
+  #_nav_menu-13-77.oxy-nav-menu-open
+  .oxy-nav-menu-hamburger{
+    position: absolute;
+    float: left;
+    transform: translateX(-306px) rotate(45deg);
+  }
+}
+
+@media only screen and (min-width:375px){
+  #_nav_menu-13-77.oxy-nav-menu-open
+  .oxy-nav-menu-hamburger{
+    position: absolute;
+    float: left;
+    transform: translateX(-330px) rotate(45deg);
+  }
+}
+@media only screen and (min-width:411px){
+  #_nav_menu-13-77.oxy-nav-menu-open
+  .oxy-nav-menu-hamburger{
+    position: absolute;
+    float: left;
+    transform: translateX(-357px) rotate(45deg);
+  }
+}
+@media only screen and (min-width:414px){
+  #_nav_menu-13-77.oxy-nav-menu-open
+  .oxy-nav-menu-hamburger{
+    position: absolute;
+    float: left;
+    transform: translateX(-355px) rotate(45deg);
+  }
+}
+@media only screen and (min-width:540px){
+  #_nav_menu-13-77.oxy-nav-menu-open
+  .oxy-nav-menu-hamburger{
+    position: absolute;
+    float: left;
+    transform: translateX(-259px) rotate(45deg);
+  }
+}
+@media screen and (min-width:768px){
+  #_nav_menu-13-77.oxy-nav-menu-open
+  .oxy-nav-menu-hamburger{
+    position: absolute;
+    float: left;
+    transform: translateX(-713px) rotate(45deg);
+  }
+}
+
+
+
